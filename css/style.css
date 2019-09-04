@@ -113,8 +113,9 @@ a { text-decoration:none; }
 	background-color: rgba(198, 187, 128, .5);
 	color: #fff;
 	text-decoration: none;
-	text-align:center;
+    font-size: 16px;
 	line-height: 40px;
+	text-align:center;
   
 }
 
@@ -127,6 +128,7 @@ a { text-decoration:none; }
 	height: 40px;
 	margin: 0;
 	background-color: rgba(198, 187, 128, .5);
+    font-size: 20px;
 	line-height: 40px;
 	text-align: center;
   
@@ -134,9 +136,7 @@ a { text-decoration:none; }
 
 #social-icon i:before { padding 0; line-height: 40px; }
 #social-icon a:hover i { background: #b2a251; }
-#social-icon a:hover .fa-google-plus { background: #c53727; }
 #social-icon a:hover .fa-twitter { background: #00a1e9; }
-#social-icon a:hover .fa-facebook { background: #3b5998; }
 
 
 /*-------- 本文 --------*/
@@ -146,6 +146,7 @@ a { text-decoration:none; }
 	height: 100%;
 	width: 100%;
 	margin-top: 20px;
+    margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	
