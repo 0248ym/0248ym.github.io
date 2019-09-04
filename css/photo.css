@@ -10,14 +10,16 @@
 	
 	width: 100%;
 	height: 100%;
+    padding: 0px;
 	margin: auto;
+    text-align: center;
 	
 }
 
 #grid li {
 	
-	margin: 20px 5px;
-	float: left;
+    display: inline-block;
+	margin: 8px;
 	list-style: none;
 	
 }
@@ -87,23 +89,33 @@
 
 
 /*--------------------------------
+  TAB表示
+--------------------------------*/
+
+@media screen and (max-width: 959px){
+    
+/*-------- フレーム --------*/
+#grid ul{
+	
+	padding: 0px 0px 0px 0px;
+	
+}
+    
+}
+
+
+/*--------------------------------
   SP表示
 --------------------------------*/
 
-@media screen and (max-width: 720px){
-
-#grid ul{
-	
-	padding: 0px 0px 0px 20px;
-	
-}
-
+@media screen and (max-width: 559px){
+    
+/*-------- フレーム --------*/
 .picture-box {
 	
 	width: 80px;
 	height: 80px;
 	
 }
-
 
 }

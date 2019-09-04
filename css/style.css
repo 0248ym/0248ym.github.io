@@ -50,6 +50,9 @@ a { text-decoration:none; }
 	width: 80px;
 	font-size: 16px;
 	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	background-color: transparent;
 	border: 2px solid #ff8e8e;
 	color: #ff8e8e;
@@ -157,16 +160,34 @@ a { text-decoration:none; }
 
 
 /*--------------------------------
-  SP表示
+  TAB表示
 --------------------------------*/
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 959px){
 
+/*-------- 本文 --------*/
 .contents {
 	
 	max-width: 80%;
 	
 }
 
+}
+
+
+/*--------------------------------
+  SP表示
+--------------------------------*/
+
+@media screen and (max-width: 559px){
+
+/*-------- メニュー --------*/
+.menu-button{
+	
+	width: 48px;
+	height: 28px;
+	font-size: 12px;
+	
+}
 
 }
