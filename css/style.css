@@ -9,33 +9,33 @@ a { text-decoration:none; }
 
 /*-------- ヘッダー --------*/
 #fixed-header {
-	
+
 	vertical-align: middle;
 	text-align: center;
 	color: #ff7f7f;
-	
+
 }
 
 #fixed-header a {
 
 	color: #ff7f7f;
-	
+
 }
-	
+
 .title {
-	
+
 	height: 80px;
 	line-height: 80px;
 	font-size: 40px;
 	font-weight: 800;
 
-	
+
 }
 
 
 /*-------- メニュー --------*/
 .menu-button{
-	
+
 	position: fixed;
 	top: 20px;
 	left: 20px;
@@ -50,7 +50,7 @@ a { text-decoration:none; }
 	color: #ff8e8e;
 	line-height: 40px;
 	z-index: 2;
-	
+
 }
 
 .menu-button:hover { background-color: rgba(255, 0, 0, .2); }
@@ -64,13 +64,13 @@ a { text-decoration:none; }
 }
 
 .menu-list {
-	
+
 	margin-top: 20px;
-	
+
 }
 
 .menu-list li {
-	
+
 	margin-top: 4px;
 	margin-left: -24px;
 	margin-right: 8px;
@@ -90,13 +90,13 @@ a { text-decoration:none; }
 .menu-list ul li ul li { margin-left: -28px; }
 
 #social-icon {
-	
+
 	margin: auto;
-	
+
 }
 
 #social-icon a {
-	
+
 	position: relative;
 	display: block;
 	width:100px;
@@ -108,11 +108,11 @@ a { text-decoration:none; }
     font-size: 16px;
 	line-height: 40px;
 	text-align:center;
-  
+
 }
 
 #social-icon i {
-	
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -123,17 +123,17 @@ a { text-decoration:none; }
     font-size: 20px;
 	line-height: 40px;
 	text-align: center;
-  
+
 }
 
-#social-icon i:before { padding 0; line-height: 40px; }
+#social-icon i:before { padding: 0; line-height: 40px; }
 #social-icon a:hover i { background: #b2a251; }
 #social-icon a:hover .fa-twitter { background: #00a1e9; }
 
 
 /*-------- 本文 --------*/
 .contents {
-	
+
 	max-width: 720px;
 	height: 100%;
 	width: 100%;
@@ -141,14 +141,14 @@ a { text-decoration:none; }
     margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	
+
 }
 
 .contents-title {
-	
+
 	font-size: 28px;
 	text-align: center;
-	
+
 }
 
 
@@ -160,9 +160,9 @@ a { text-decoration:none; }
 
 /*-------- 本文 --------*/
 .contents {
-	
+
 	max-width: 80%;
-	
+
 }
 
 }
@@ -176,11 +176,11 @@ a { text-decoration:none; }
 
 /*-------- メニュー --------*/
 .menu-button{
-	
+
 	width: 48px;
 	height: 28px;
 	font-size: 12px;
-	
+
 }
 
 }
