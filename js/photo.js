@@ -1,5 +1,5 @@
-﻿var elems = document.querySelectorAll('.picture-box');
-var disp = KUTE.allFromTo(
+﻿let elems = document.querySelectorAll('.picture-box');
+let disp = KUTE.allFromTo(
 	//対象
 	elems,
 	{

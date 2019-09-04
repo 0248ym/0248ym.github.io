@@ -4,10 +4,10 @@ common.js
 概要：全てのページにおいて最低限必要なjsファイルを呼び出す。
 */
 
-var rootPath = getRootPath();
-var pagePath = window.location.pathname;
-var aptDemoPath = "/aptware/"
-var aptDemoIndexPath = aptDemoPath + "index.html"
+let rootPath = getRootPath();
+let pagePath = window.location.pathname;
+let aptDemoPath = "/aptware/"
+let aptDemoIndexPath = aptDemoPath + "index.html"
 
 
 // 前提(ライブラリ)
@@ -33,36 +33,36 @@ getRootPath
 備考：なし
 */
 function getRootPath(){
-	var hoge = function()
+	let hoge = function()
 	{
-		var f = function(e)
+		let f = function(e)
 		{
-			var name = e.tagName;
+			let name = e.tagName;
 			if( !!name && name.toUpperCase() == "SCRIPT" )
 			{
 				return e;
 			}
-			var c = e.lastChild;
+			let c = e.lastChild;
 			return (!!c)?f(c):null;
 		};
-		var es = f(document);
+		let es = f(document);
 		if(!es)
 		{
 			return window.location;
 		}
 		return es.getAttribute("src") || window.location;
 	}
-	var path = hoge();
+	let path = hoge();
 
 	if( "object" == typeof(path) )
 	{
 		path = path.href;
 	}
-	var array = path.split("/");
+	let array = path.split("/");
 	array.splice(array.length - 2, 2);
 
 	path = "";
-	for(var y = 0, cnt = array.length; y < cnt; y++)
+	for(let y = 0, cnt = array.length; y < cnt; y++)
 	{
 		path+= array[y] + "/";
 	}
